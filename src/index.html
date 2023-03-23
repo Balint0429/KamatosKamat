@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sablon</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-success">Kamat</h1>
+        <h2 class="text-muted">Feladat 0313</h2>
+    <div class="">
+        <div class="mt-3">
+            <label for="betet" class="form-label">Betét</label>
+            <input type="text" id="betet" class="form-control">
+        </div>
+        <div class="mt-3">
+            <label for="tokesites_szam" class="form-label">Évenkénti tökésités</label>
+            <input type="text" id="tokesites_szam" class="form-control">
+        </div>
+        <div class="mt-3">
+            <label for="nevleges" class="form-label">Névleges Kamat</label>
+            <input type="text" id="nevleges" class="form-control">
+        </div>
+
+        <button id="calcButton" class="btn btn-success mt-3">
+            Számítás</button>
+
+        <div class="mt-3">
+            <label for="tenyleges_kamat" class="form-label">Tényleges Kamat</label>
+            <input type="text" id="tenyleges_kamat" class="form-control">
+        </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
